@@ -1,0 +1,26 @@
+# Author: William Z Chadwick
+# Date Created: 09/07/2022
+# Date Modified: 09/07/2022
+# Description: A place for my notes during class in Week 6 of Promineo Tech, discusses Week 5 Project some.
+
+---
+
+"Rubber-Ducking"
+
+Rubber duck debugging.
+
+talking about it to become more comfortable.
+
+very cool stuff;
+
+a web application version of the Week 6 version?
+
+Sara Kuenzi is sharing her coding projects; haha, it's in really good shape for both weeks! cest la vie
+
+I have got to find out how to devote more time to this.
+
+I should check out Kuenzi's github for Week 5.
+
+good to know that Kuenzi also followed the video; when asked if she plotted it out beforehand.
+
+I should plot more out about that project. I really need to figure it out.
