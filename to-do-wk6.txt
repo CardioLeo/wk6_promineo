@@ -8,6 +8,8 @@
 -same but video course
 -more odin project
 -post German notes to Josh
+/-short review of "Writing a Book: Venturing into other fields in tech as a dev" codementor events video, blog post
+-Valley of Code, React book, blog post
 
 2. Week 6
 -videos
