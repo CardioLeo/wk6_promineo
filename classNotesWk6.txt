@@ -24,3 +24,48 @@ I should check out Kuenzi's github for Week 5.
 good to know that Kuenzi also followed the video; when asked if she plotted it out beforehand.
 
 I should plot more out about that project. I really need to figure it out.
+
+---
+
+dan Wilson, made second menu also a while loop. // good idea
+
+Pat W, asking how to use filter instead of splice (Sara used splice, he said).
+
+Stepanski showing us an example from week 4; this is his example but with id key-value pairs added.
+
+let parks = [
+	{ id: 1, name: "sd", rating: 4.2 }, // 4 items
+	{ id: 2, name: "hs", rating: 5 },
+	{ id: 3, name: "lw", rating: 4.5 },
+	{ id: 4, name: "js", rating: 4.1 },
+];
+
+// let result = parks.filter((park) => park.rating >= 4.5); // original example
+
+let result = partks.filter((park) => park.name != "sd"); // tonights new code
+
+console.log(result);
+
+---
+
+showing us the miro.com/ application for mapping coding thought. pretty cool. I made an account.
+
+---
+
+A pattern for engineering.
+
+menu --> methods
+
+^
+
+TaskList --> methods, and perhaps properties
+
+^
+
+task --> only properties
+
+---
+
+pattern for engineering:
+
+"The Single Responsibility Principle" (principle? pattern?)
