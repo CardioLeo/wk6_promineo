@@ -1,0 +1,181 @@
+# Author: William Z Chadwick
+# Date Created: 09/07/2022
+# Date Modified: 09/07/2022
+# Description: A place for notes for a blog post on Nadia Zhuk's book on learning how to code, "Crossing the Rubycon"
+
+Video-talk Review
+
+-short review of "Writing a Book: Venturing into other fields in tech as a dev" codementor events video, blog post
+
+(1. Belarus, -> Israel, -> Poland, -> UK)
+
+(2. huge book nerd, 65-100 books a year, 100 in 2020)
+
+(3. "Crossing the Rubycon: How to Learn to Code and Build a Progamming Career")
+
+editor and such
+
+9 months, got a job
+
+never comfortable with computers growing up
+
+tried to learn to code html
+
+how to become better - learning from the best - optimizing my learning - looking for new opportunities
+
+brilliant interviewer; lots of top polish university graduates as coworkers.
+
+so she was learningfrom the best.
+
+work from brilliant people, but also read books from brilliant people.
+
+book list? (what is her booklist, looks interesting)
+book: domain driven design
+book: designing data-i[?] applications
+9 total authors pictured here
+
+9 classic authors who used writing processes which she followed
+Ray Bradbury, Stephen King, Jame Austen, Charles Dickens?, Oscar Wilde, Hemingway, others... Fitzgerald. Filling her life with the best writings ever.
+
+quote:
+
+"If you ever find that you're the most talented person in the room, you need to find another room."
+-Austin Kleon
+
+emulating other writers; which works. she says, "a trick that works every time" (doubtful that it works "every time, but yeah.")
+
+-----embrace the struggle.
+
+-----googling the most basic words all the time
+[me, so this is just like "language learning" in the ordinary sense]
+
+tip 2.?
+
+"Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime."
+[anonymous proverb?]
+
+Nadia Zhuk.
+
+"This was exactly what it was supposed to feel like." -the struggle.
+
+helps you trace the exact contours of what you are learning attentively.
+
+"Writing is supposed to be difficult, agonizing, a dreadful exercise, a terrible occupation."
+-Ray Bradbury
+
+This is a good talk, precisely because it ties in notions of writing and language learning with the experience of learning to code.
+
+"Writing a book is intellectually very difficult, it is also a very lonely occupation where you spend hours and hours inside your own head and then kind of pouring your heart on the page where everything looks and feels completely different from the way it looked in your head, and then you have to go back over the sam sentence over and over and over until you feel that [you have done away with] everything that was fake and that was not true and you can see your own thoughts on the page." [then she brings in the Ray Bradbury quote]
+
+code as a discipline of logic and the intentionality of writing.
+
+tip 3 about talking.
+
+When stuck, start talking. "Talking helps us organize our thinking." ... rubber duck "an object that you can explain your thinking to."
+
+"...a skill that I'm sure applies to other spheres of life as well." [yes, this is why writing and journaling is such a humanistic activity; why writing and retelling ones story over and over again, like prayer and meditation, can heal trauma and change the course of one's own and another's life. Coding, it seems, can be similar, so long as we do not let it turn us into those who forget that we have a body, forget our "cares", forget, in other words, to "pay attention." -- What is the cost of attention, after all? Shouldn't attention be costly? When it iis costly, the investment gives us back more than we got when we gave less. "You get what you give" is a true maxim - but like all wise proverbs it is easy to forget in the day to day above all of modern life.]
+
+Seth Godin quote: "No one ever gets talker's block. No one wakes up in the morning, discovers he has nothing to say and sits quietly for days or weeks, until the muse hits, until the moment is right, until all the craziness in his life has died down."
+
+when she felt blocked in her writing; she would start speaking, talking through it.
+
+She often knew how to formulate it, but had to talk out loud about it.
+
+Sometimes in writing it is easier to hide the absense of substance.
+
+Whereas in talking it is HARDER to hide the absence of substance. This is a big deal, a good insight. It could arguably be drawn back to Presence, and also to attention. In someone's presence we feel more aware of how we ourselves are faking; whereas perhaps to the page it is too easy to fake, to gesture suggestively and think that that is enough. I probably do that way, way too much.
+
+"The tiniest of steps can take you a long way"
+true in my experience, because I learned German by doing just a little bit every day. Definitely insightful.
+
+Comparing code today to code a year ago. Does show progress.
+
+Secret to the process?
+
+"...sadly, or you know, maybe not sadly, there is no secret to that. It was just me taking consistent small steps toward improvement. So it took me a lot of grit and a lot of patience, but overall it just came down to forcing myself to do at least something contributing to my learning - maybe not even every day, but at least a few times a week. So if you're working on a skill right now, and taking steps towards improvement, they can be really, really small. However, they might be so tiny that you don'teven notice them.... It's very hard to feel that you are making progress if you are not seeing it, right? So, I learned this lesson while being a programmer, and I had to remind myself of this, of this truth, when I was working on the book. Because with my book I actually had to create four drafts, meaning that I had to rewrite big chunks of the book four times. And I can imagine that this sounds like a very massive undertaking, you know, you have to rewrite the whole book. But to be honest, on a day to day basis, it didn't feel this way at all. It felt like taking a go with th book, sentence by sentence, and improving whatever I could on that day. Sometimes I would just have time to rewrite one paragraph. And then it didn't feel like I achieved much on that day. However, those small improvements added up and allowd me to improve the quality of the book in a major way."
+
+quote: "The only way to learn to write is to force yourself to produce a certain number of words on a regular basis."
+-William Zinsser
+
+She was the same person, but just applied lots of tiny steps over the course of months.
+
+---
+
+tip 4 - "Show your work (early)."
+
+She would work and work and work on the code before showing it to someone.
+
+"Why did you build this? We already have a library for this."
+
+"Why did you implement it this way? There is a way that is ten times easier."
+
+If there can be a technological ethic of care, one of the issues that needs to be felt out is how and why and when and where one should take the route "that is ten times easier" rather than "take on cares," "pick up worries." So this is interesting because it almost stands opposite the point she just finished making about being willing to feel like you are going nowhere for a long, long time, only making the tiniest changes on a daily basis, or a couple times a week.
+
+"There are no shortcuts" - except for when there are.
+
+So in a sense, a virtue of an ethic of care when in the context of modern technology will know how to practice this balance of knowing when to keep working away at something no matter how long it takes, and when to say, "there must be an easier way, and I must find the necessary shortcut." This is an issue precisely suited for the definition of a virtue as a strengthening habitual balance between two extremes of behavior.
+
+This is all the more easier when it is tied with transparency, with "showing your work (early)." It takes humility, and a kind of confidence at the same time, to say, "I don't know what I am doing; let me walk you through my code and you can tell me if this is plodding in the right direction or taking the not-even-scenic-long-way-round."
+
+"If only I had shared my work earlier, I could have saved all this effort. Speed is very important for the engineer...."
+
+[two months on the first draft; book had big problem. no story;]
+
+"very, very long search engine optimized blog post"
+
+"It was supposed to feel and read like a novel. ... I kind of regretted that I didn't ask for feedback earlier."
+
+quote:
+"If you're not embarrassed by the first version of your product, you've launched too late."
+-Reid Hoffman
+
+"basically you should try to show your work to the world as early as possible"
+
+---
+
+tip 5 - "be a pro."
+
+She viewed the project as a side-project. she didn't feel that she was totally invested in the project. it would take too long and lose motivation. She had to treat it with respect as with her full time job.
+
+book: Turning Pro;
+"The pro shows up every day.
+The pro stays on the job all day.
+The pro is committed over the long haul.
+For the pro, the stakes are high and real."
+-Steven Pressfield
+
+book changed her life. helped her finish her own book.
+
+the idea is that whenever you are working on a side-project, you should treat it with the same seriousness that you do your own work, even if you're not interetsed. you will always have to do something boring.
+
+"I never got to the point where I wrote every day." But she did manage to write regularly Saturday and Sunday - only leaving when she couldn't produce anymore. Two vacations spent entirely working on the book.
+
+reexamine if you are treating the project with the same respect you are treating your day job.
+
+---
+
+tip 6 - dare to act.
+
+if you wanted a new role, new creative project, new own company
+
+make a list of skills you already have; make a list of skills that you need to build on.
+
+You will discover that many of your previous jobs "actually taught you some vauluable and highly transferable skills that you can use to succeed in something else."
+
+quote:
+"You can't wait for inspiriation. You have to go after it with a club."
+-Jack London.
+
+final quote and final slide; her book, "Crossing the Rubycon: How to Learn to Code and Build a Programming Career."
+
+check out her book, buy on Amazon and Gumroad
+
+---
+
+Q&A
+
+being force to think very clearly about how to speak very clearly.... a skill for coding and coding jobs.
+
+bloging here and there. but does a lot of writing as a software engineer, esp working remotely, forced to be very clear and precise in communication. (A concrete failsafe against "forgetting one has a body" by using the bagueness that one is tempted to; or how do we formulate this? Isn't extremely precise writing a replacement for the lack of that 90% of communication which is tone and body language? So precise language could be the replacementof the body to an extent, the same way Plato worried that writing would replace the expansive memory of oral cultures. This is certainly a themethat could and has been greatly elaborated, from Plato to Heidegger (to George Steiner).)
+
+The more I write about this - the more I know that the most traditional themes of philosophy have never stopped being relevant.
