@@ -69,3 +69,45 @@ task --> only properties
 pattern for engineering:
 
 "The Single Responsibility Principle" (principle? pattern?)
+
+related to "Separation of Concerns."
+
+How does Participation change the need for this in real life, when not doing code?
+
+Or resonances?
+
+poetry often means multiple things at the same time - not a separation of concerns, which is why it is so rich, resonant, participatory in richer realities.
+
+So living in a rich reality depends on good abstraction / participation, bringing disparate items to participate in each other and in the ultimate Tao.
+
+[asked at end of class; separation of concerns and single responsibility principle; he said that yeah, they are pretty much tied together. If one item has more than one responsibility, then it will be clearer and probably work better if the concerns are separated into single responsibilities per item.]
+
+---
+
+
+Had a hard time paying attention about half-way through class today (for maybe 20 min. or so); stopped taking notes, which is surely partly why. Hm. But that made me feel dissatisfied. I wish I had stuck with it. I feel like I'm being left behind - an awful feeling.
+
+Part of this feeling is surely because I am actually being challenged this week and last week. And so the coursework isn't a breeze this week and last week. :/ I need to give it more time.
+
+_populate() {
+
+	const suits = ['', '', '', ''];
+	const ranks = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10','J', 'Q', 'K'];
+	const values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+// Look this up: replit.com/@stepanski/week6-Assignmentindex.js
+
+// stepanski says shuffling code stole from replit website on how to shuffle a javascript array (link in slack)
+}
+
+break the program into smaller parts and it becomes easier and easier.
+
+boilerplate your code to write each method and what goes inside of it, separate everything into its separate parts, simple as possible.
+
+// ** pseudo-code **
+
+makes it easier to do.
+
+"If you don't finish it, that's okay. Get through as much of it a you can. Get it to work. Understand how it works..."
+
+end of class.
