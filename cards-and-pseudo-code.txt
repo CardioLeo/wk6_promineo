@@ -61,3 +61,13 @@ function playWar() {
 }
 
 playWar();
+
+note cards:
+
+1
+2
+3
+4
+5
+6
+7 Do I need a separate function
