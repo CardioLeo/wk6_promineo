@@ -32,7 +32,7 @@ This final JavaScript project is an automated version of the classic card game W
 
 flow:
 
-menu() {
+function playWar() {
 	Class Deck {
 		Class Card {
 			. . .;
@@ -43,6 +43,7 @@ menu() {
 			inherits Class card?;
 			cards stored in Hand array;
 		}
+		has: spoils; spoils keeps count?
 	}
 	steps: {
 		-fill out deck with (cards x13) x (suites x4), [points?]
@@ -51,9 +52,12 @@ menu() {
 		-loop through shuffled deck, dealing every card to each player, alternating back and forth
 		-when both players have full 26 cards, begin play
 			--play involves each player playing top card
-				---1, add played card to player score,
+				---1, add played card to player score/spoils.
 				---2, use .pop() to take that off the top of the array?
-				---exception: if card1Value = card2Value, neither score is added to player score)
+				---exception: if card1Value = card2Value, neither score is added to player score/spoils)
+				---loop continues until hand1 + hand2 = 0;
 			--when all cards are dealt, played, and scores added up; scores must be compared; winningScore > losingScore, || if score1 === score2, game is tied.
 	}
 }
+
+playWar();
