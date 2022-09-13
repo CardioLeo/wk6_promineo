@@ -50,7 +50,10 @@ menu() {
 		-shuffle deck
 		-loop through shuffled deck, dealing every card to each player, alternating back and forth
 		-when both players have full 26 cards, begin play
-			--play involves each player playing top card (1, add played card to player score, 2, use .pop() to take that off the top of the array?)
+			--play involves each player playing top card
+				---1, add played card to player score,
+				---2, use .pop() to take that off the top of the array?
+				---exception: if card1Value = card2Value, neither score is added to player score)
 			--when all cards are dealt, played, and scores added up; scores must be compared; winningScore > losingScore, || if score1 === score2, game is tied.
 	}
 }
