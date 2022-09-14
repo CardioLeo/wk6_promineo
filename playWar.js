@@ -31,7 +31,7 @@ console.log(value);
 let rank = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
 console.log(rank);
 // suites, value and rank have been console.log tested;
-
+// now I should move over to working on Week 7 items;
 
 class Card() {
 	// so there should be a loop in the constructor, or a loop that calls the constructor 26 times? How did Macias fill this out in her walkthrough?
