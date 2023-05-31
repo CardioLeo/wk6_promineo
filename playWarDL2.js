@@ -1,11 +1,11 @@
 // Author: William Z Chadwick
 // Date Created: 09/14/2022
-// Date Modified: 05/28/2023
+// Date Modified: 09/14/2022
 // Description: A place for my notes following along with K Macias' video walk-through of Promineo Tech Week 7 playWar card program.
 //
 
 class Character {
-	constructor(name, char_deck, spoils) {}
+	constructor(name, spoils, ) {}
 
 }
 
@@ -18,11 +18,7 @@ class Card {
 	}
 }
 
-class Deck {
-	constructor() {
-		// calls cards? or instantiates cards?
-	}
-}
+class Deck {}
 
 class Character {}
 
@@ -31,22 +27,14 @@ console.log(player1);
 let player2 = new Character('Joe');
 console.log(player2);
 
-let suites ["Hearts", "Diamonds", "Spades", "Clovers"];
 let values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"];
+let suits ["Hearts", "Diamonds", "Spades", "Clovers"];
 let ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
-		// The above values and ranks start at 2
-		// as opposed to 1, because it seems that
-		// could be confusing starting the scoring
-		// system at 1 with card 2, etc., and still
-		// the Ace value is supposed to be highest,
-		// hence 14. But This does feel like an odd
-		// setup, nonetheless.
 
 createDeck() {
 	for (let valueIndex = 0; valueIndex < values.length; valueIndex++) {
-		for (let suiteIndex = 0; suiteIndex < suite.length; suiteIndex++) {
-			if values.length = suite.length {}
-		}
+		for (let suitIndex = )
+
 	}
 }
 dealDeck() {
