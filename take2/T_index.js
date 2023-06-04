@@ -10,3 +10,5 @@ function doSomething(x, y) {
 	}
 	return x + y;
 }
+
+doSomething(x, y);
