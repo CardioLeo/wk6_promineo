@@ -29,10 +29,12 @@ class Menu {
 	//	console.log(player1);
 	//	let player2 = new Player("Broski", [0], 0);
 	//	console.log(player2);
+		let player1 = "Joeski";
 	}
 
 	start_game() {
 		alert("war card game started!") // alert works
+	//	alert(this.player1 + " has been created!"); // doesn't work
 	}
 }
 
