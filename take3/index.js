@@ -23,6 +23,19 @@
 
 // Need Shuffle Logic.
 
+class Menu {
+	constructor() {
+		let player1 = new Player("Joeski", [0], 0);
+		console.log(player1);
+		let player2 = new Player("Broski", [0], 0);
+		console.log(player2);
+	}
+
+	start_game() {
+		
+	}
+}
+
 class Deck {
 	let rank_values = {
 		"2": 2,
@@ -58,7 +71,5 @@ class Player(name, hand, score) {
 	let this.score = 0;
 }
 
-let player1 = new Player("Joeski", [0], 0);
-console.log(player1);
-let player2 = new Player("Broski", [0], 0);
-console.log(player2);
+let menu = new Menu();
+menu.start_game();
