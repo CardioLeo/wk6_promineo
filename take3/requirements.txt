@@ -1,0 +1,24 @@
+requirements for Week 6 automated cardgame, War
+
+- only 2 players
+- "you do not need to do anything special when there is a tie in a round"
+- write down your plan
+- classes:
+Card, Deck, Player, what properties and methods these might include
+- no user input needed; all should happen instantaneously
+
+---
+
+1 -- deal 26 cards to each player from a deck of 52 cards
+2 -- iterate through the turns where each player plays a card
+3 -- the player who played the higher card is awarded a point
+4 -- -- ties result in zero points for both players
+5 -- after all teh cards have been played, display the score and declare the winner
+6 -- write a unit test using Mocha and Chai for at least one of the functions you write
+
+---
+
+Create a video, 5min max, show and explain how the project works, emp. your contributions
+- screenshare and voiceover
+- can use Zoom, ordinarily, but probably not this week
+- upload to a website like Youtube, share as Public or Unlisted
