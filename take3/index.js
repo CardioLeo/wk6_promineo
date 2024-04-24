@@ -57,6 +57,11 @@ function get_value_by_key(input_key){
 	return value;
 }
 
+function print_array_of_objects(full_52){
+	let formatted_52 = JSON.stringify(full_52, null, 4);
+	console.log(formatted_52);
+}
+
 class Menu {
         constructor() {
         //      let player1 = new Player("Joeski", [0], 0);
@@ -141,7 +146,8 @@ class Card {
 			// 	console.log("Rank: ", rank_num);
 			// }
 		}
-		console.log(full_52);
+		// PRINT HERE ******
+		print_array_of_objects(full_52);
 	}
 }
 
@@ -166,7 +172,9 @@ let player2 = new Player("Moe", 0);
 
 let arch_card = new Card(deck.suites[0], deck.suites[1], deck.suites[2]);
 // console.log(card.rank, card.suite, card.points);
-arch_card.make_52_cards(deck.suites, deck.ranks);
+let full_52 = arch_card.make_52_cards(deck.suites, deck.ranks);
+
+// print_array_of_objects(full_52);
 
 menu.start_game();
 // print_all_in(deck.ranks);
