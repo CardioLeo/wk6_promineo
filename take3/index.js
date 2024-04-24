@@ -161,7 +161,7 @@ let deck = new Deck();
 let player1 = new Player("Curly", 0);
 let player2 = new Player("Moe", 0);
 
-let arch_card = new Card(deck.suites[0], deck.suites[1], deck.suites[2]);
+let arch_card = new Card();
 let full_52 = arch_card.make_52_cards(deck.suites, deck.ranks);
 
 menu.start_game();
