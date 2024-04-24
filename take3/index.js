@@ -37,13 +37,24 @@ function sleep(ms) {
 }
 
 function print_all_in(this_set) {
-	alert('printing all elements in set');
+	console.log('printing all elements in set');
+	// alert('printing all elements in set');
 	for (let element in this_set){
 		sleep(750).then(() => { console.log(element); });
                                 // 750 is a good arg to pass to sleep
 				// if doing console.log();
 				// but for alert, even 50 feels too large
 	}
+}
+
+function get_value_by_key(input_key){
+	let value = Object.keys(input_key).forEach((item) => {
+		if(typeof input_key[item] == "number") {
+		       return input_key[item];
+		}
+		return "Error!";
+	})
+	return value;
 }
 
 class Menu {
@@ -55,7 +66,8 @@ class Menu {
         }
 
         start_game() {
-                alert("war card game started!") // alert works
+		console.log("war card game started!");
+                // alert("war card game started!") // alert works
         }
 }
 
@@ -84,8 +96,9 @@ class Deck {
 	// methods
 
 	print_suites() {
-		alert("printing suites");
-                for (let i = 0; i < this.suites.length; i++){
+		// alert("printing suites");
+                console.log("printing suites");
+		for (let i = 0; i < this.suites.length; i++){
                         // alert(suites[i]);
 			console.log(this.suites[i]); 
                 }
@@ -93,28 +106,48 @@ class Deck {
 }	
 
 class Card {
-        constructor(rank, suite, points) {
+        constructor(rank, suite, points, card_num) {
                 this.rank = rank;
                 this.suite = suite;
                 this.points = points;
+		this.card_num = card_num;
         }
 
 	make_52_cards(deck_suites, deck_ranks){
+		let full_52 = [];
+		let card_number = 1;
 		for (let suite_num = 0; suite_num < deck_suites.length; suite_num++){
-			console.log("Suite: ", deck_suites[suite_num]);
+			// console.log("Suite: ", deck_suites[suite_num]);
 			for (let element in deck_ranks){
-				console.log("Rank: ", element);
+				// let value = get_value_by_key(element);
+				// console.log("Suite: ", deck_suites[suite_num], "Rank: ", element, "Points: ", deck_ranks[element]);
+				let this_card_suite = deck_suites[suite_num];
+				let this_card_rank = element;
+				let this_card_points = deck_ranks[element];
+				let temp = new Card(this_card_rank, this_card_suite, this_card_points, card_number);
+				// console.log(temp);
+				full_52.push(temp);
+				// console.log("The number of this card is: ", card_number, "||| Rank: ", this_card_rank, "||| Suite: ", this_card_suite, "||| Points: ", this_card_points,);
+				if (card_number < 53){
+					card_number++; // this is mainly for helping insure my sanity
+				}
+
 			}
+			// const obj = { name: "Ben" };
+			// Object.assign(obj, { age: 22 });
+			// console.log(obj); // { name: 'Ben', age: 22 }
+
 			// for (let rank_num = 0; rank_num < deck_ranks.length; rank_num++){
 			// 	console.log("Rank: ", rank_num);
 			// }
 		}
+		console.log(full_52);
 	}
 }
 
 class Player { // add name, hand, score as parameters to constructor?
         name = "";
-        // hand = [];
+        hand = [];
         score = 0;
 
 	constructor(name, score){
@@ -131,13 +164,14 @@ let deck = new Deck();
 let player1 = new Player("Curly", 0);
 let player2 = new Player("Moe", 0);
 
-let card = new Card(deck.suites[0], deck.suites[1], deck.suites[2]);
-console.log(card.rank, card.suite, card.points);
-card.make_52_cards(deck.suites, deck.ranks);
+let arch_card = new Card(deck.suites[0], deck.suites[1], deck.suites[2]);
+// console.log(card.rank, card.suite, card.points);
+arch_card.make_52_cards(deck.suites, deck.ranks);
 
 menu.start_game();
-print_all_in(deck.ranks);
-deck.print_suites();
+// print_all_in(deck.ranks);
+// deck.print_suites();
 console.log(player1);
 console.log(player2);
-print_all_in(deck.suites); // only prints indices and not strings of suites
+// print_all_in(deck.suites); // only prints indices and not strings of suites
+// 				// redundant because of print_all_in(deck.ranks) & deck.print_suites();
